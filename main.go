@@ -1,11 +1,9 @@
 package main
 
 import (
-	"fmt"
-
-	"golang.org/x/text/encoding/unicode"
+	"github.com/sirupsen/logrus"
 )
 
 func main() {
-	fmt.Println(unicode.ErrMissingBOM)
+	logrus.Info("hello")
 }
