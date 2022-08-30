@@ -1,6 +1,9 @@
 package main
 
 import (
+	_ "github.com/crewjam/saml"
+	_ "github.com/prometheus/client_golang/api"
+	_ "github.com/rehacktive/caffeine/database"
 	"github.com/sirupsen/logrus"
 )
 
